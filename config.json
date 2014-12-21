@@ -1,0 +1,23 @@
+{
+  "mpd": {
+    "music_directory": "~/Music",
+    "host": "127.0.0.1",
+    "port": 6600,
+    "playlist": "Android"
+  },
+  "sync": {
+    "destination": "SD card/Music"
+  },
+  "mtp": {
+    "command": "/usr/bin/jmtpfs",
+    "args": ["%m"],
+    "unmount": {
+      "command": "/usr/bin/fusermount",
+      "args": ["-u", "%m"]
+    }
+  },
+  "rsync": {
+    "command": "/usr/bin/rsync",
+    "progress": true
+  }
+}

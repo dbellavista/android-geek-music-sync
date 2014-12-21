@@ -1,0 +1,21 @@
+{
+  "name": "mpd-music-sync",
+  "version": "0.0.1",
+  "description": "mpd-music-sync",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+  },
+  "directories": {
+  },
+  "dependencies": {
+    "mpd": "^1.2.0",
+    "temp": "^0.8.1"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbellavista/android-geek-music-sync"
+  }
+}
